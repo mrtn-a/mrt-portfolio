@@ -8,7 +8,8 @@
   background-repeat: no-repeat;
   position: relative;
   filter: grayscale(0.2);
-  h1 {
+  h1, h3, p {
     color: #192D4F;
+    font-family: $banner-curly-font;
   }
 }
