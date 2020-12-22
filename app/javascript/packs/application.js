@@ -23,7 +23,29 @@ require("channels")
 // ----------------------------------------------------
 
 // External imports
+
 import "bootstrap";
+// import { initRellax } from '../plugins/rellax.js';
+
+import { loadDynamicBannerText } from '../components/banner';
+
+document.addEventListener('turbolinks:load', () => {
+  // Call your JS functions here
+  // [...]
+  loadDynamicBannerText();
+});
+
+
+import { initRellax } from '../components/rellax.js';
+
+document.addEventListener('turbolinks:load', () => {
+  // Call your JS functions here
+  // [...]
+if (document.querySelector('.rellax')) {
+    initRellax();
+  };
+
+});
 
 // Internal imports, e.g:
 // import { initSelect2 } from '../components/init_select2';
@@ -31,11 +53,10 @@ import "bootstrap";
 document.addEventListener('turbolinks:load', () => {
   // Call your functions here, e.g:
   // initSelect2();
-});
 
+  //RELLAX INIT
+  // if (document.querySelector('.rellax')) {
+  //   initRellax();
+  // };
 
-import { loadDynamicBannerText } from '../components/banner';
-
-document.addEventListener('turbolinks:load', () => {
-  loadDynamicBannerText();
 });
