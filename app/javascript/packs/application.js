@@ -23,6 +23,8 @@ require("channels")
 // ----------------------------------------------------
 
 // External imports
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 import "bootstrap";
 // import { initRellax } from '../plugins/rellax.js';
@@ -44,6 +46,8 @@ document.addEventListener('turbolinks:load', () => {
 if (document.querySelector('.rellax')) {
     initRellax();
   };
+  // ANIMATE ON SCROLL INIT
+  AOS.init();
 
 });
 
