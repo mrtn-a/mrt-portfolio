@@ -1,7 +1,7 @@
 .banner {
   background-image: linear-gradient(180deg, rgba(232,233,235,0) 88%, rgba(232,233,235,1) 100%), url('banner-martyna.jpg');
   background-size: cover;
-  height: 100vh;
+  height: 120vh;
   text-align: center;
   padding-top: 40vh;
   background-repeat: no-repeat;
@@ -17,6 +17,7 @@
 }
 
 .title {
+  margin-top: -4rem;
   background-image: url('img.png');
   background-repeat: no-repeat;
   background-position: center;
@@ -26,7 +27,7 @@
   background-size: contain;
   display: flex;
   justify-content: center;
-  // align-items: center;
+  // margin-bottom: -20%;
   h1 {
     color: #192D4F;
     font-family: $banner-curly-font;
@@ -38,6 +39,15 @@
 
 .about {
   margin-top: 6rem;
+}
+
+.section-box {
+  height: 100vh;
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    text-align: justify;
+  }
 }
 
 .fade-in {
@@ -73,7 +83,11 @@ animation: fadeIn ease 8s;
 }
 
 
-
+.img-girl {
+  opacity: 0.5;
+  margin-top: -4rem;
+  margin-left: 4rem;
+}
 
 // .wrapper-color-gray-presentation {
 //     position: absolute;

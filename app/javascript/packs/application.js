@@ -55,6 +55,15 @@ if (document.querySelector('.rellax')) {
 // import { initSelect2 } from '../components/init_select2';
 
 document.addEventListener('turbolinks:load', () => {
+
+  // WELCOME MESSAGE
+  console.log('%c%s',
+              "color: #FFF; background: #6086A8; font-size: 24px; padding: .5rem; font-family: 'courier'; text-align: center;",
+              'Hey there!');
+
+  console.log('%c%s',
+              "color: #FFF; background: #6086A8; font-family: 'courier'; padding: .25rem;",
+              "I will be happy to connect https://github.com/mrtn-a");
   // Call your functions here, e.g:
   // initSelect2();
 
