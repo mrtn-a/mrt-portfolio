@@ -1,14 +1,14 @@
 .banner {
-  background-image: linear-gradient(180deg, rgba(232,233,235,0) 88%, rgba(232,233,235,1) 100%), url('banner-martyna.jpg');
+  background-image: url('background2.png');
   background-size: cover;
-  height: 120vh;
+  height: 100vh;
   text-align: center;
   padding-top: 40vh;
   background-repeat: no-repeat;
   position: relative;
   filter: grayscale(0.2);
   h1, h3, p {
-    color: #192D4F;
+    color: #3C535F;
     font-family: $banner-curly-font;
   }
 }
