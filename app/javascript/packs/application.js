@@ -42,12 +42,12 @@ import { initRellax } from '../components/rellax.js';
 
 document.addEventListener('turbolinks:load', () => {
   // Call your JS functions here
+  // ANIMATE ON SCROLL INIT
+  AOS.init();
   // [...]
 if (document.querySelector('.rellax')) {
     initRellax();
   };
-  // ANIMATE ON SCROLL INIT
-  AOS.init();
 
 });
 
