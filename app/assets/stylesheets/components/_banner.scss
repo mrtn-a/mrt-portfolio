@@ -1,7 +1,7 @@
 .banner {
-  background-image: url('background2.png');
+  background-image: url('bg-main.png');
   background-size: cover;
-  height: 100vh;
+  height: 130vh;
   text-align: center;
   padding-top: 40vh;
   background-repeat: no-repeat;
@@ -13,102 +13,9 @@
   }
 }
 
-#banner-typed-text {
-}
-
-.title {
-  margin-top: -4rem;
-  background-image: url('img.png');
-  background-repeat: no-repeat;
-  background-position: center;
-  position: relative;
-  width: 300px;
-  height: 200px;
-  background-size: contain;
-  display: flex;
-  justify-content: center;
-  // margin-bottom: -20%;
-  h1 {
-    color: #192D4F;
-    font-family: $banner-curly-font;
-    margin-top: 18px;
-    margin-right: 42px;
-    margin-left: 30px;
-  }
-}
-
-// .about {
-//   margin-top: 6rem;
+// main background
+// .bg {
+//   background-image: url('backgroundd.png');
+//   background-size: contain;
+//   background-repeat: no-repeat;
 // }
-
-.section-box {
-  margin-top: 6rem;
-
-  // height: 100vh;
-  p {
-    font-size: 1.2rem;
-    margin-bottom: 2rem;
-    text-align: justify;
-  }
-}
-
-.fade-in {
-animation: fadeIn ease 8s;
--webkit-animation: fadeIn ease 8s;
--moz-animation: fadeIn ease 8s;
--o-animation: fadeIn ease 8s;
--ms-animation: fadeIn ease 8s;
-}
-@keyframes fadeIn {
-0% {opacity:0;}
-100% {opacity:1;}
-}
-
-@-moz-keyframes fadeIn {
-0% {opacity:0;}
-100% {opacity:1;}
-}
-
-@-webkit-keyframes fadeIn {
-0% {opacity:0;}
-100% {opacity:1;}
-}
-
-@-o-keyframes fadeIn {
-0% {opacity:0;}
-100% {opacity:1;}
-}
-
-@-ms-keyframes fadeIn {
-0% {opacity:0;}
-100% {opacity:1;}
-}
-
-
-.img-girl {
-  opacity: 0.5;
-  margin-top: -4rem;
-  margin-left: 4rem;
-}
-
-// .wrapper-color-gray-presentation {
-//     position: absolute;
-//     top: 10%;
-//     height: 50%;
-//     width: 30%;
-//     background-color: #30475e20;
-//     right: 25%;
-
-//     z-index: 0;
-//   }
-
-
-
-.wrapper-gold {
-    position: absolute;
-    top: 150vh;
-    right: -10%;
-    z-index: 0;
-    opacity: 0.6;
-  }
-
