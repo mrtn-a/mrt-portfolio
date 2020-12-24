@@ -23,19 +23,53 @@ require("channels")
 // ----------------------------------------------------
 
 // External imports
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 import "bootstrap";
+// import { initRellax } from '../plugins/rellax.js';
+
+import { loadDynamicBannerText } from '../components/banner';
+
+document.addEventListener('turbolinks:load', () => {
+  // Call your JS functions here
+  // [...]
+  loadDynamicBannerText();
+});
+
+
+import { initRellax } from '../components/rellax.js';
+
+document.addEventListener('turbolinks:load', () => {
+  // Call your JS functions here
+  // [...]
+if (document.querySelector('.rellax')) {
+    initRellax();
+  };
+  // ANIMATE ON SCROLL INIT
+  AOS.init();
+
+});
 
 // Internal imports, e.g:
 // import { initSelect2 } from '../components/init_select2';
 
 document.addEventListener('turbolinks:load', () => {
+
+  // WELCOME MESSAGE
+  console.log('%c%s',
+              "color: #FFF; background: #6086A8; font-size: 24px; padding: .5rem; font-family: 'courier'; text-align: center;",
+              'Hey there!');
+
+  console.log('%c%s',
+              "color: #FFF; background: #6086A8; font-family: 'courier'; padding: .25rem;",
+              "I will be happy to connect https://github.com/mrtn-a");
   // Call your functions here, e.g:
   // initSelect2();
-});
 
+  //RELLAX INIT
+  // if (document.querySelector('.rellax')) {
+  //   initRellax();
+  // };
 
-import { loadDynamicBannerText } from '../components/banner';
-
-document.addEventListener('turbolinks:load', () => {
-  loadDynamicBannerText();
 });
