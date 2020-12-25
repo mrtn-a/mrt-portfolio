@@ -2,12 +2,17 @@ require("@rails/ujs").start()
 require("turbolinks").start()
 require("@rails/activestorage").start()
 require("channels")
+//= require wow
 
 
 // External imports
 import "bootstrap";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+
+$ (function () {
+  AOS.init ();
+});
 
 import { loadDynamicBannerText } from '../components/banner';
 import { initRellax } from '../components/rellax.js';
@@ -28,8 +33,8 @@ document.addEventListener('turbolinks:load', () => {
 
   loadDynamicBannerText();
 
-  // ANIMATE ON SCROLL INIT
-  AOS.init();
+  // // ANIMATE ON SCROLL INIT
+  // AOS.init();
 
   //RELLAX INIT
   if (document.querySelector('.rellax')) {
