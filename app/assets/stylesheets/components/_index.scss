@@ -9,6 +9,10 @@
 @import "animations";
 @import "image";
 
-body {
-  overflow-x: hidden
+html, body{
+  display: block;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  width: 100%;
 }
