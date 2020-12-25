@@ -18,19 +18,16 @@
 
 .section-box {
   margin-top: 6rem;
-  // border: 3px solid #ED5F7B;
-  // background-clip: content-box;
-  // padding: 15px;
   // height: 100vh;
   p {
     font-size: 1.2rem;
     margin-bottom: 2rem;
     text-align: justify;
+    border: 3px solid #ED5F7B;
+
   }
 }
-.section-box .rounded p {
-  color: red !important;
-}
+
 .margin-top10 {
   margin-top: 10rem;
 }
