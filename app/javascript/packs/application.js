@@ -11,8 +11,6 @@ import "bootstrap";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-AOS.init();
-
 
 
 import { loadDynamicBannerText } from '../components/banner';
@@ -35,7 +33,7 @@ document.addEventListener('turbolinks:load', () => {
   loadDynamicBannerText();
 
   // ANIMATE ON SCROLL INIT
-  // AOS.init();
+  AOS.init();
 
   //RELLAX INIT
   if (document.querySelector('.rellax')) {
