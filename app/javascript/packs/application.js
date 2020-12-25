@@ -7,9 +7,16 @@ require("channels")
 
 // External imports
 import "bootstrap";
+
+
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-AOS.init();
+
+document.addEventListener('DOMContentLoaded', function() {
+  AOS.init({
+    startEvent: 'turbolinks:load' // if you are using turbolinks
+  });
+});
 
 
 
@@ -33,7 +40,7 @@ document.addEventListener('turbolinks:load', () => {
   loadDynamicBannerText();
 
   // ANIMATE ON SCROLL INIT
-  AOS.init();
+  // AOS.init();
 
   //RELLAX INIT
   if (document.querySelector('.rellax')) {
