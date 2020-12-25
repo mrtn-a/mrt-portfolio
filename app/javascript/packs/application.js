@@ -11,11 +11,7 @@ import "bootstrap";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-document.addEventListener('DOMContentLoaded', function() {
-  AOS.init({
-    startEvent: 'turbolinks:load' // if you are using turbolinks
-  });
-});
+AOS.init();
 
 
 
