@@ -10,12 +10,10 @@
 }
 
 .bg {
-
-   background: linear-gradient(rgba(251,251,255,.95), rgba(251,251,255,.95)), url(bg-black.png);
-      background-repeat: no-repeat;
-    background-size: cover;
-    // background-position: center;
-
+  background: linear-gradient(rgba(251,251,255,.95), rgba(251,251,255,.95)), url(bg-black.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  // background-position: center;
 }
 
 .section-box {
@@ -33,12 +31,6 @@
 
 .margin-top10 {
   margin-top: 10rem;
-}
-
-.img-girl {
-  opacity: 0.5;
-  margin-top: -4rem;
-  margin-left: 4rem;
 }
 
 // .wrapper-color-gray-presentation {

@@ -1,0 +1,76 @@
+<div class="container-fluid margin-top10">
+  <div class="title-dot row align-items-center">
+    <div data-aos="fade-right" data-aos-duration="1000" class="col-md-4 col-sm-3">
+      <hr class="dots animate animate-left">
+    </div>
+    <h1 data-aos="zoom-in" data-aos-duration="1000" class="col-md-4 col-sm-6 text-center">Projects</h1>
+    <div data-aos="fade-left" data-aos-duration="1000" class="col-md-4 col-sm-3">
+      <hr class="dots animate animate-left">
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="section-box d-flex">
+    <div class="row text-center justify-content-between">
+
+      <div data-aos="zoom-in" data-aos-duration="1500" class="col-md-3 col-sm-10">
+        <%= image_tag('laptop-plant.svg', class: "image-align") %>
+      </div>
+
+      <div class="col-md-8 col-sm-8">
+        <div data-aos="fade-down-left" data-aos-duration="1000">
+          <p>Always excited by the latest tech ideas, working in ad tech company for the last 4 years, I fell in love with the idea and opportunity to challenge myself on the other side of the screen. Graduated from a coding bootcamp I find it really satisfying to be able to build something.</p>
+          <p>Coding adheres to no limitations. I code because I believe in learning by doing. </p>
+          <p>My current stack:</p>
+          <span class="rounded">Ruby on Rails</span>
+          <p class="rounded">Javascript</p>
+
+        </p>Ruby on Rails, Javascript ES6, HTML5, CSS and MySQL</p>
+        </div>
+      </div>
+
+    <!-- built projects -->
+      <div class="row text-center justify-content-around mt-5">
+
+        <!-- cleanaroo -->
+        <div class="col-md-3 col-sm-8">
+          <div data-aos="zoom-in" data-aos-duration="1000">
+            <h4>Cleanaroo</h4>
+            <%= link_to "https://www.cleanaroo.app/", target: "_blank" do %>
+              <div class="d-flex">
+                <%= image_tag "cleanaroo-page1.png", class: "mobile-device-app " %>
+                <%= image_tag "cleanaroo.png", class: "mobile-device-app rotate" %>
+              </div>
+            <% end %>
+            <p>Cleanaroo is an user friendly mobile app that matches busy vacation rental property managers with the best cleaner offering them high quality and reliable cleaning service. </p>
+          </div>
+        </div>
+
+      <!-- plantify -->
+        <div class="col-md-3 col-sm-8">
+          <div data-aos="zoom-in" data-aos-duration="1000">
+            <h4>Plantify</h4>
+            <%= link_to "https://plantyfy.herokuapp.com/", target: "_blank" do %>
+              <%= image_tag "plantify.png", class: "laptop-device-app" %>
+            <% end %>
+            <p>Plantify is a renting plant service for variety seeking, busy and gardening-skills-lacking people, wanting to get assistance in choosing the right plants to enjoy a home filled with green love.</p>
+          </div>
+        </div>
+
+      <!-- mr cocktail -->
+        <div class="col-md-3 col-sm-8">
+          <div data-aos="zoom-in" data-aos-duration="1000">
+            <h4>Mr Cocktail</h4>
+            <%= link_to "https://mrt-cocktail.herokuapp.com/", target: "_blank" do %>
+                <%= image_tag "mr-cocktail.png", class: "project-device-app " %>
+            <% end %>
+            <p>Cleanaroo is an user friendly mobile app that matches busy vacation rental property managers with the best cleaner offering them high quality and reliable cleaning service. </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div> <!-- projects end -->
+</div>
