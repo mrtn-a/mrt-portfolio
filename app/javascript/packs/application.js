@@ -6,10 +6,7 @@ require("channels")
 
 // External imports
 import "bootstrap";
-
-
 import AOS from 'aos';
-import 'aos/dist/aos.css';
 
 
 
@@ -18,9 +15,9 @@ import { initRellax } from '../components/rellax.js';
 
 
 document.addEventListener('turbolinks:load', () => {
-  // JQUERY GLOBAL $ FOR AJAX
-  global.$ = jQuery;
 
+  // ANIMATE ON SCROLL INIT
+  AOS.init();
   // WELCOME MESSAGE
   console.log('%c%s',
               "color: #FFF; background: #6086A8; font-size: 24px; padding: .5rem; font-family: 'courier'; text-align: center;",
@@ -32,8 +29,6 @@ document.addEventListener('turbolinks:load', () => {
 
   loadDynamicBannerText();
 
-  // ANIMATE ON SCROLL INIT
-  AOS.init();
 
   //RELLAX INIT
   if (document.querySelector('.rellax')) {
