@@ -3,9 +3,16 @@
 @import "avatar";
 @import "navbar";
 @import "banner";
-@import "device-img";
 @import "background";
 @import "fonts";
 @import "animations";
 @import "image";
+@import "carousel";
 
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none !important;
+  color: $pink;
+}

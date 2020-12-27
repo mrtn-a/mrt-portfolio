@@ -11,7 +11,7 @@
   // justify-content: center;
   // // margin-bottom: -20%;
   h1 {
-    color: #ED5F7B;
+    color: $pink;
     font-family: $banner-curly-font;
     margin-right: 42px;
     margin-left: 30px;
@@ -34,7 +34,7 @@ hr.dots {
     display: flex;
     flex-flow: row wrap;
       h1 {
-    color: #ED5F7B;
+    color: $pink;
     font-family: $banner-curly-font;
   }
 }

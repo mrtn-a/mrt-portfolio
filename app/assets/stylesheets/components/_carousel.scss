@@ -1,0 +1,21 @@
+#carouselExampleIndicators {
+  -webkit-box-shadow: 10px 10px 60px 11px rgba(230,230,230,0.61);
+-moz-box-shadow: 10px 10px 60px 11px rgba(230,230,230,0.61);
+box-shadow: 10px 10px 60px 11px rgba(230,230,230,0.61);
+}
+
+
+.carousel-item {
+  h4 {
+    color: #ED5F7B;
+    font-family: $body-font;
+    font-size: 2rem;
+  }
+}
+
+.carousel-inside {
+  padding-right: 5rem;
+  padding-left: 5rem;
+  margin-top: 3rem;
+  align-items: center;
+}
