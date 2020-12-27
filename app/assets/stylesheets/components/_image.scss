@@ -2,3 +2,15 @@
   width: 80%;
   height: 80%;
 }
+
+.img-device {
+  height: 340px;
+}
+
+.rotate {
+  transform: scale(1.1) rotate(15deg);
+}
+
+.small-rotate {
+  transform: rotate(-10deg);
+}
