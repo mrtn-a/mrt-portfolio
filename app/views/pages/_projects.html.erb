@@ -34,106 +34,12 @@
             <p>Here's a selection of some recent work. I've done these projects to sharpen my skills. For more recent work, you can visit my Github profile.
         </div>
 
+        <%= render 'pages/carousel' %>
 
-
-        <!-- projects -->
-
-        <div class="row text-center justify-content-around mt-5">
-
-          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol>
-
-            <div class="carousel-inner">
-
-              <div class="carousel-item active p-5">
-                <div class="d-block w-100">
-                  <div class="col-sm-12">
-                    <%= link_to "https://www.cleanaroo.app/", target: "_blank" do %>
-                      <h4>Cleanaroo</h4>
-                    <% end %>
-                  </div>
-
-                  <div class="row carousel-inside">
-                    <div class="col-sm-6">
-                      <div>
-                        <%= link_to "https://www.cleanaroo.app/", target: "_blank" do %>
-                          <div class="d-flex">
-                            <%= image_tag "cleanaroo-page1.png", class: "img-device" %>
-                            <%= image_tag "cleanaroo.png", class: "img-device rotate" %>
-                          </div>
-                        <% end %>
-                      </div>
-                    </div>
-                    <div class="col-sm-6">
-                      <p>Cleanaroo is an user friendly mobile app that matches busy vacation rental property managers with the best cleaner offering them high quality and reliable cleaning service. </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-
-              <div class="carousel-item p-5">
-                <div class="d-block w-100">
-                  <div class="col-sm-12">
-                    <%= link_to "https://plantyfy.herokuapp.com/", target: "_blank" do %>
-                      <h4>Plantify</h4>
-                    <% end %>
-                  </div>
-
-                  <div class="row carousel-inside">
-                    <div class="col-sm-6">
-                      <div>
-                        <%= link_to "https://plantyfy.herokuapp.com/", target: "_blank" do %>
-                          <%= image_tag "plantify.png", class: "img-device" %>
-                        <% end %>
-                      </div>
-                    </div>
-                    <div class="col-sm-6">
-                      <p>Plantify is a renting plant service for variety seeking, busy and gardening-skills-lacking people, wanting to get assistance in choosing the right plants to enjoy a home filled with green love.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="carousel-item p-5">
-                <div class="d-block w-100">
-                  <div class="col-sm-12">
-                    <%= link_to "https://www.cleanaroo.app/", target: "_blank" do %>
-                      <h4>Mr Cocktail</h4>
-                    <% end %>
-                  </div>
-
-                  <div class="row carousel-inside">
-                    <div class="col-sm-4">
-                      <div>
-                        <%= link_to "https://mrt-cocktail.herokuapp.com/", target: "_blank" do %>
-                          <%= image_tag "mr-cocktail.png", class: "img-device small-rotate" %>
-                        <% end %>
-                      </div>
-                    </div>
-                    <div class="col-sm-6">
-                      <p>A cocktail listing and creation platform. Users can view cocktails listed and add their own creation. </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <a class="carousel-control-prev text-dark" href="#carouselExampleIndicators" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next text-dark" href="#carouselExampleIndicators" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
-          </div>
-
+        <div>
+          <h1>hey there</h1>
         </div>
+
 
       </div>
     </div>

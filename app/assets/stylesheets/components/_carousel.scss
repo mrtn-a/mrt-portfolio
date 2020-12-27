@@ -1,7 +1,7 @@
 #carouselExampleIndicators {
   -webkit-box-shadow: 10px 10px 60px 11px rgba(230,230,230,0.61);
--moz-box-shadow: 10px 10px 60px 11px rgba(230,230,230,0.61);
-box-shadow: 10px 10px 60px 11px rgba(230,230,230,0.61);
+  -moz-box-shadow: 10px 10px 60px 11px rgba(230,230,230,0.61);
+  box-shadow: 10px 10px 60px 11px rgba(230,230,230,0.61);
 }
 
 
@@ -18,4 +18,12 @@ box-shadow: 10px 10px 60px 11px rgba(230,230,230,0.61);
   padding-left: 5rem;
   margin-top: 3rem;
   align-items: center;
+}
+
+#cleanaroo {
+  background: url(bg-black.png);
+}
+
+#plantify {
+  object-fit: contain;
 }
