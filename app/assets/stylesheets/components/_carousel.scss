@@ -2,6 +2,7 @@
   -webkit-box-shadow: 10px 10px 60px 11px rgba(230,230,230,0.61);
   -moz-box-shadow: 10px 10px 60px 11px rgba(230,230,230,0.61);
   box-shadow: 10px 10px 60px 11px rgba(230,230,230,0.61);
+  height: 550px;
 }
 
 
@@ -18,12 +19,6 @@
   padding-left: 5rem;
   margin-top: 3rem;
   align-items: center;
+  justify-content: space-around;
 }
 
-#cleanaroo {
-  background: url(bg-black.png);
-}
-
-#plantify {
-  object-fit: contain;
-}
