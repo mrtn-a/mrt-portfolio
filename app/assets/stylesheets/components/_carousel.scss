@@ -1,9 +1,10 @@
 #carouselExampleIndicators {
   -webkit-box-shadow: 10px 10px 60px 11px rgba(230,230,230,0.61);
--moz-box-shadow: 10px 10px 60px 11px rgba(230,230,230,0.61);
-box-shadow: 10px 10px 60px 11px rgba(230,230,230,0.61);
+  -moz-box-shadow: 10px 10px 60px 11px rgba(230,230,230,0.61);
+  box-shadow: 10px 10px 60px 11px rgba(230,230,230,0.61);
+  // height: 550px;
+  height: 80vh;
 }
-
 
 .carousel-item {
   h4 {
@@ -13,9 +14,68 @@ box-shadow: 10px 10px 60px 11px rgba(230,230,230,0.61);
   }
 }
 
+  .img-device {
+    width: 95%;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+
+.rotate {
+  transform: scale(1.1) rotate(10deg);
+}
+
+.small-rotate {
+  transform: rotate(-5deg);
+  // margin-top: -1rem;
+}
+
 .carousel-inside {
   padding-right: 5rem;
   padding-left: 5rem;
-  margin-top: 3rem;
+  margin-top: 0.5rem;
   align-items: center;
+  justify-content: space-around;
 }
+
+.mobile-content-center {
+  margin-top: 3rem;
+}
+
+.img-device-flex {
+  width: 90%;
+}
+
+// small screen
+@media only screen and (max-width: 768px) {
+
+  .carousel-inside {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    margin-top: 2rem;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .img-device-flex {
+    width: 30%;
+  }
+
+  .img-device {
+    width: 50%;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+  .mobile-w-50 {
+    width: 30%;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    height: auto;
+  }
+
+  .mobile-content-center {
+    margin-top: 0.5rem;
+    justify-content: center;
+  }
+}
+
+//  align-items-start to fix Image stretching in flexbox in Safari

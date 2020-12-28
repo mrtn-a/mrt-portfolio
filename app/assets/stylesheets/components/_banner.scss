@@ -1,10 +1,12 @@
+
 .banner {
-  background-image: url('bg-main.png');
-  background-size: cover;
-  height: 130vh;
+  background-image: url('bg-main-small.png');
+  background-size: contain;
+  height: 100vh;
   text-align: center;
-  padding-top: 40vh;
+  padding-top: 36vh;
   background-repeat: no-repeat;
+  background-position: top;
   position: relative;
   filter: grayscale(0.2);
   h1, h3, p {
@@ -19,3 +21,24 @@
 //   background-size: contain;
 //   background-repeat: no-repeat;
 // }
+
+
+// larger screen
+@media only screen and (min-device-width: 400px) {
+  .banner {
+    background-image: url('bg-main.png');
+    background-size: cover;
+    height: 120vh;
+    text-align: center;
+    padding-top: 40vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    filter: grayscale(0.2);
+
+    h1, h3, p {
+      color: #3C535F;
+      font-family: $banner-curly-font;
+    }
+  }
+}
