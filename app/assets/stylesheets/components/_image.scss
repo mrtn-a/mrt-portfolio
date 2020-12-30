@@ -5,3 +5,10 @@
   flex: 1 0 25%;
 }
 
+.small-image {
+  height: 60px;
+  width: auto;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  filter: grayscale(90%);
+}
