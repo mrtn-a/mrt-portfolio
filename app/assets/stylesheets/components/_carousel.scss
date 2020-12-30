@@ -4,6 +4,9 @@
   box-shadow: 10px 10px 60px 11px rgba(230,230,230,0.61);
   // height: 550px;
   height: 80vh;
+  border-radius: 12px;
+  padding-bottom: 2rem;
+  border: 4px dotted $pink;
 }
 
 .carousel-item {
