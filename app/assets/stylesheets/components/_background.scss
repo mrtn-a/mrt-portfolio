@@ -39,19 +39,24 @@
 }
 
 .wrapper-color-gray-presentation {
-    position: absolute;
-    top: 120%;
-    height: 50%;
-    width: 25%;
-    // background-color: transparent;
-    right: 25%;
-    // border: 4px dotted #30475e30;
-    background:  url(dots.png);
-    opacity: 0.08;
+  position: absolute;
+  top: 120%;
+  height: 50%;
+  width: 25%;
+  // background-color: transparent;
+  right: 25%;
+  // border: 4px dotted #30475e30;
+  background:  url(dots.png);
+  opacity: 0.08;
+}
 
+
+// small screen
+@media only screen and (max-width: 768px) {
+  .wrapper-color-gray-presentation {
+    position: relative;
   }
-
-
+}
 
 //
 
