@@ -1,4 +1,3 @@
-
 <div class="container-fluid margin-top10">
   <div class="title-dot row align-items-center">
     <div data-aos="fade-right" data-aos-duration="1000" class="col-md-4 col-sm-3">
@@ -13,36 +12,46 @@
 
 
 <div class="container">
-  <div class="section-box d-flex">
+  <div class="section-box">
     <div class="row text-center justify-content-between">
 
-      <div class="col-sm-12">
+      <div class="col-sm-12 col-md-10 mx-auto">
         <div data-aos="zoom-in" data-aos-duration="1000">
           <p class="mb-1">If there's any project you want to get started, think you may need my help or just want to say hi.. feel free to get in touch! </p>
         </div>
-      </div>
-
-      <div class="col-sm-12 mt-5">
-<!--             <div data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="100">
-              <%= image_tag('contact-me.png', class: "image-align") %>
-            </div> -->
-
-            <form action="https://formspree.io/f/xleoozkn" method="POST" id="contact-form">
-              <div class="form-group">
-                <input type="text"  class="form-control" id="name" placeholder="Name">
-              </div>
-              <div class="form-group">
-                <input type="email" name="_replyto" class="form-control" id="email" placeholder="Email">
-              </div>
-              <div class="form-group">
-                <!-- <label for="exampleFormControlTextarea1">Your message</label> -->
-                <textarea name="message" class="form-control" id="message" rows="3" placeholder="Hey Martyna.."></textarea>
-              </div>
-              <button type="submit" class="btn btn-primary">Get in touch</button>
-            </form>
       </div>
 
     </div>
   </div>
 </div>
 
+<div class="cover-bg container-fluid">
+      <div class="col-sm-12">
+
+        <form action="https://formspree.io/f/xleoozkn" method="POST" id="contact-form" class="px-5">
+          <div class="form-row justify-content-around">
+
+            <div class="form-group col-md-5 col-sm-12">
+              <input type="text"  class="form-control" id="name" placeholder="Name">
+            </div>
+            <div class="form-group col-md-7 col-sm-12">
+              <input type="email" name="_replyto" class="form-control" id="email" placeholder="Email">
+            </div>
+          </div>
+          <div class="form-group">
+            <!-- <label for="exampleFormControlTextarea1">Your message</label> -->
+            <textarea name="message" class="form-control" id="message" rows="3" placeholder="Hey Martyna.."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Get in touch</button>
+        </form>
+      </div>
+
+
+
+
+</div>
+
+
+<!--    <div data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="100">
+          <%= image_tag('contact-me.png', class: "image-align") %>
+        </div> -->

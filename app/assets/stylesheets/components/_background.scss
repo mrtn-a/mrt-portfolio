@@ -55,31 +55,6 @@
 
 //
 
-.projects {
-  width: 100%;
-  height: 80vh;
-  background-color: $pink;
-  position: relative;
-  text-align: center;
-}
-
-.cover {
-  width: 100%;
-  height: 100%;
-  background-color: white;
-  transform: skewY(-5deg);
-}
-
-
-.straight {
-    // transform: skewY(0deg);
-  width: 100%;
-  height: 50%;
-  z-index: 1;
-  position: absolute;
-  top: 5%;
-  left: 0;
-}
 
 // .contact-title {
 //     position: absolute;
