@@ -1,0 +1,24 @@
+.form-control {
+  border: none;
+  border-bottom: 1px solid #888;
+  background: #FBFBFF;
+  border-radius: 0;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.form-control:focus {
+  border-color: transparent;
+  box-shadow: 0 0 0 0.2rem rgba(237, 95, 122, 0.25);
+  background-color: transparent;
+
+}
+#contact-form {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  border: 4px dotted $pink;
+  border-radius: 12px;
+  padding: 2rem;
+}
+
