@@ -64,9 +64,9 @@ i {
     height: 64vh;
   }
 
-  .color-p {
-  color: $dark-blue;
-  }
+  // .color-p {
+  //   color: $dark-blue;
+  // }
 
   .footer-social-media {
     margin-top: 10rem;
@@ -75,11 +75,14 @@ i {
   i {
     color: $dark-blue;
     font-size: 2rem;
+    transition: transform .5s;
 
     &:hover {
       color: $dark-blue;
+      transform: scale(1.3)
     }
   }
+
 }
 
 
