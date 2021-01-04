@@ -6,11 +6,14 @@
   height: 80vh;
   border-radius: 12px;
   padding-bottom: 2rem;
+  background-image: url('girls1.png');
+  background-size: contain;
 }
+
 
 .carousel-item {
   h4 {
-    color: #ED5F7B;
+    color: $pink;
     font-family: $body-font;
     font-size: 2rem;
   }

@@ -9,7 +9,7 @@
   position: relative;
   filter: grayscale(0.2);
   h1, h3, p {
-    color: #3C535F;
+    color: $dark-blue;
     font-family: $banner-curly-font;
   }
 }
@@ -36,7 +36,7 @@
     filter: grayscale(0.2);
 
     h1, h3, p {
-      color: #3C535F;
+      color: $dark-blue;
       font-family: $banner-curly-font;
     }
   }
