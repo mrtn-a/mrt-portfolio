@@ -44,12 +44,9 @@ i {
   margin: 0 0.8rem;
 }
 
-// .background-cover {
-//   padding: 1rem;
-//   background-color: #ED5F7B;
-//   filter: grayscale(0.0);
-//   margin-bottom: -6rem;
-// }
+.background-cover {
+  z-index: 1;
+}
 
 
 // small screen
@@ -64,9 +61,9 @@ i {
     height: 64vh;
   }
 
-  // .color-p {
-  //   color: $dark-blue;
-  // }
+  .color-p {
+    color: $dark-blue;
+  }
 
   .footer-social-media {
     margin-top: 10rem;
