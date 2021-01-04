@@ -4,18 +4,43 @@
 
 
 .footer {
-    background-image: url('bg-main-flip.png');
-    background-size: cover;
-    height: 60vh;
-    text-align: center;
-    background-repeat: no-repeat;
-    position: relative;
-    filter: grayscale(0.2);
-    z-index: 0;
-    margin-top: -7rem;
+  justify-content: center;
+  align-items: flex-end;
+  display: flex;
+  background-image: url('bg-main-flip.png');
+  background-size: cover;
+  height: 46vh;
+  text-align: center;
+  background-repeat: no-repeat;
+  position: relative;
+  filter: grayscale(0.2);
+  z-index: 0;
+  margin-top: -7rem;
 
   p {
-    color: white;
+    color: $dark-blue;
   }
 }
 
+i {
+  color: white;
+  font-size: 2rem;
+
+  &:hover {
+    color: $dark-blue;
+  }
+}
+
+.margin-between {
+  margin: 0 0.8rem;
+}
+
+.text-bg {
+  padding: 0.5rem;
+  background-color: #FBFBFF;
+  border-radius: 12px;
+}
+// .background-cover {
+//   background-color: $light-gray;
+//   width: 100%;
+// }
