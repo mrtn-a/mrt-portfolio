@@ -1,0 +1,5 @@
+meta_product_name: "Martyna Markiel"
+meta_title: "Martyna Markiel - portfolio"
+meta_description: "Martyna Markiel - always smiling junior fullstack web developer!"
+meta_image: "mm.png" # should exist in `app/assets/images/`
+twitter_account: "@mrtna77"   # required for Twitter Cards
