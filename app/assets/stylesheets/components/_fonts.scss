@@ -1,15 +1,4 @@
 .title {
-  // margin-top: -4rem;
-  // background-image: url('img.png');
-  // background-repeat: no-repeat;
-  // background-position: center;
-  // position: relative;
-  // width: 300px;
-  // height: 200px;
-  // background-size: contain;
-  // display: flex;
-  // justify-content: center;
-  // // margin-bottom: -20%;
   h1 {
     color: $pink;
     font-family: $banner-curly-font;
@@ -17,7 +6,6 @@
     margin-left: 30px;
   }
 }
-
 
 hr.dots {
     border: none;
@@ -38,14 +26,6 @@ hr.dots {
     font-family: $banner-curly-font;
   }
 }
-
-// .border-round {
-//   border: 2px solid #ED5F7B;
-//     padding: 0 18px 0 18px;
-//   margin-right: 0.6rem;
-//   border-radius: 24px;
-//   display: inline-block;
-// }
 
 .color-pink {
   color: $pink;
