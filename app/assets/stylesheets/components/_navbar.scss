@@ -9,6 +9,11 @@
   transition: all .3s ease;
   padding: 0;
 
+  &.active {
+    opacity: 0.9;
+    background-color: #FBFBFF !important;
+  }
+
   .navbar-collapse {
     flex-grow: 0;
     flex-direction: column;
@@ -71,14 +76,6 @@ button:focus {
 
 // small screen
 @media only screen and (max-width: 768px) {
-  .navbar-portfolio {
-
-    opacity: 0.9;
-
-    &.active {
-      background-color: #FBFBFF !important;
-    }
-  }
 
   .p-mobile {
     padding-right: 2rem;
