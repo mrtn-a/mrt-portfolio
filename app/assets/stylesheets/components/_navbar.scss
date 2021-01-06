@@ -1,12 +1,87 @@
-.navbar-lewagon {
-  justify-content: space-between;
-  background: white;
+.navbar-portfolio {
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  opacity: 1;
+  transition: opacity .2s ease;
+  height: 100vh;
+  width: fit-content;
+  transition: all .3s ease;
+  padding: 0;
+
+  .navbar-collapse {
+    flex-grow: 0;
+    flex-direction: column;
+    transition: all .3s ease;
+  }
+
+  .container {
+    height: 100vh;
+    flex-direction: row-reverse;
+    transition: all .3s ease;
+    flex-wrap: initial;
+  }
 }
 
-.navbar-lewagon .navbar-collapse {
-  flex-grow: 0;
+.navbar-toggler-icon {
+  background-image: url('double-chevron.svg') !important;
+  height: 1rem;
+  width: 1rem;
+  background-size: 100%;
+  transition: all .3s ease;
+
+  &:hover, &:focus {
+    transform: rotate(180deg);
+  }
+
+  &.rotate-icon {
+    transform: rotate(180deg);
+  }
 }
 
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
+.navbar-toggler {
+  border-radius: 10px;
+  border: none;
+  transition: all .3s ease;
+  padding: 0;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.nav-link {
+  color: $dark-blue !important;
+  transition: box-shadow .3s ease;
+  box-shadow: none;
+  transition: all .3s ease;
+
+  &:hover {
+   transform: scale(1.1)
+  }
+}
+
+button:focus {
+  outline: none;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+// small screen
+@media only screen and (max-width: 768px) {
+  .navbar-portfolio {
+
+    opacity: 0.9;
+
+    &.active {
+      background-color: #FBFBFF !important;
+    }
+  }
+
+  .p-mobile {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
 }
