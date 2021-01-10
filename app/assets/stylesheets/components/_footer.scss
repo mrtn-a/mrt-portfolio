@@ -9,11 +9,12 @@
   justify-content: center;
   align-items: flex-end;
   display: flex;
-  background-image: url('bg-main-flip.png');
+  background-image: url('abstract-triangle-top.png');
+  transform: rotate(180deg);
   background-size: cover;
-  height: 46vh;
+  height: 70vh;
   text-align: center;
-  background-repeat: no-repeat;
+  background-repeat: round;
   position: relative;
   filter: grayscale(0.2);
   z-index: 0;
@@ -50,27 +51,29 @@ i {
     justify-content: center;
     align-items: flex-end;
     display: flex;
-    background-image: url('bg-main-small-flip.png');
-    background-position: initial;
-    background-size: contain;
-    height: 64vh;
+    background-image: url('abstract-triangle-top.png');
+    transform: rotate(180deg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
   }
 
   .color-p {
-    color: $dark-blue;
+    color: $pastel-black;
   }
 
   .footer-social-media {
-    margin-top: 11rem;
+    margin-top: 6rem;
   }
 
   i {
-    color: $dark-blue;
+    color: $pastel-black;
     font-size: 2rem;
     transition: transform .5s;
 
     &:hover {
-      color: $dark-blue;
+      color: $pastel-black;
       transform: scale(1.3)
     }
   }

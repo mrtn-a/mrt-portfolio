@@ -1,7 +1,7 @@
 .title {
   h1 {
     color: $pink;
-    font-family: $banner-curly-font;
+    // font-family: $main-text-font;
     margin-right: 42px;
     margin-left: 30px;
   }
@@ -9,24 +9,77 @@
 
 hr.dots {
     border: none;
-    border-top: 4px dotted #173544!important;
     height: 4px;
     background: 0 0!important;
 }
 
+#dots-green {
+  border-top: 8px dotted $pastel-green!important;
+}
+
+#dots-blue {
+  border-top: 8px dotted $pastel-light-blue !important;
+}
+
+#dots-mint {
+  border-top: 8px dotted $pastel-mint!important;
+}
+
+.text-green {
+  color: $pastel-green;
+}
+
+.text-blue {
+  color: $pastel-light-blue;
+}
+
+.text-mint {
+  color: $pastel-mint;
+}
+
 .title-dot {
-    max-width: 100rem;
-    margin-right: auto;
-    margin-left: auto;
-    display: -ms-flexbox;
-    display: flex;
-    flex-flow: row wrap;
-      h1 {
-    color: $pink;
-    font-family: $banner-curly-font;
+  max-width: 100rem;
+  margin-right: auto;
+  margin-left: auto;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: row wrap;
+
+  h1 {
+    font-family: $bold-text-font;
   }
 }
 
-.color-pink {
-  color: $pink;
+
+.outline {
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1.5px;
+  font-family: $bold-text-font;
 }
+
+.bigger {
+  font-size: 2rem;
+  font-family: $bold-text-font;
+}
+
+.size-3 {
+  font-size: 3.5rem;
+  font-family: $bold-text-font;
+}
+
+#stack p {
+  font-size: 0.8rem;
+}
+
+// small screen
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 4rem !important;
+  }
+
+  .size-3 {
+    font-size: 3rem;
+    font-family: $bold-text-font;
+  }
+}
+

@@ -39,9 +39,13 @@
   opacity: 0.08;
 }
 
+
 // small screen
 @media only screen and (max-width: 768px) {
   .wrapper-color-gray-presentation {
     position: relative;
+  }
+  .margin-top10 {
+    margin-top: 0rem;
   }
 }
