@@ -4,9 +4,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Fanwood+Text&family=Quattrocento&display=swap');
 
 // Define fonts for body and headers
-$body-font: "Quattrocento", "Helvetica", "sans-serif";
+$body-font: "Mosk Thin", "Helvetica", "sans-serif";
 $headers-font: "Nunito", "Helvetica", "sans-serif";
 
+@font-face {
+   font-family: 'Mosk Medium';
+   src: url('Mosk Medium 500.ttf');
+}
+
+@font-face {
+   font-family: 'Mosk Thin';
+   src: url('Mosk Thin 100.ttf');
+}
+
+@font-face {
+   font-family: 'Mosk Bold';
+   src: url('Mosk Ultra-Bold 900.ttf');
+}
 // To use a font file (.woff) uncomment following lines
 // @font-face {
 //   font-family: "Font Name";
@@ -22,4 +36,5 @@ h1 {
 }
 
 $banner-curly-font:  "Dawning of a New Day", "Helvetica", "sans-serif" !important;
-
+$main-text-font:  "Mosk Medium", "Helvetica", "sans-serif";
+$bold-text-font:   "Mosk Bold", "Helvetica", "sans-serif";

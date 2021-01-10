@@ -8,7 +8,7 @@
 
 .form-control:focus {
   border-color: transparent;
-  box-shadow: 0 0 0 0.2rem rgba(237, 95, 122, 0.25);
+  box-shadow: 0 0 0 0.2rem $pastel-green;
   background-color: #FBFBFF;
   border-radius: 4px;
 }
@@ -17,7 +17,7 @@
   width: 80%;
   height: auto;
   margin: 0 auto;
-  border: 4px dotted $dark-blue;
+  border: 8px dotted $pastel-green;;
   border-radius: 12px;
   padding: 2rem;
   background-color: #FBFBFF;
@@ -26,20 +26,25 @@
   padding-left: 4rem;
 }
 
-.btn-pink {
-  background-color: $pink;
+.btn-contact {
+  font-size: 1.3rem;
+  background-color: $pastel-mint;
   color: #FBFBFF;
   border-radius: 12px;
+  font-family: $bold-text-font;
+}
+.btn:hover {
+  color: #FBFBFF;
 }
 
 .btn:focus {
-  box-shadow: 0 0 0 0.2rem rgba(237, 95, 122, 0.25);
+  box-shadow: 0 0 0 0.2rem $pastel-green;
 }
 
 .cover-bg {
   width: 100%;
   height: 65vh;
-  background-color: $dark-blue;
+  background-color: $pastel-green;
   position: relative;
   text-align: center;
   padding: 5rem;
@@ -52,14 +57,14 @@
   .cover-bg {
     width: 100%;
     height: 44vh;
-    background-color: $dark-blue;
+    background-color: $pastel-green;
     padding: 1rem;
     margin-top: 10rem;
   }
 
   #contact-form {
     width: 100%;
-    border: 4px dotted $dark-blue;
+    border: 8px dotted $pastel-green;
     border-radius: 12px;
     padding: 2rem;
     background-color: #FBFBFF;

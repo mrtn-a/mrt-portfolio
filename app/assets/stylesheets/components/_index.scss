@@ -9,11 +9,12 @@
 @import "carousel";
 @import "contact-form";
 @import "footer";
+@import "intro";
 
 a:link,
 a:visited,
 a:hover,
 a:active {
   text-decoration: none !important;
-  color: $pink;
+  color: $pastel-mint;
 }

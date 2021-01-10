@@ -1,17 +1,29 @@
 .banner {
-  background-image: url('bg-main-small.png');
-  background-size: contain;
+  background-image: url('abstract-triangle-top.png');
+  background-size: cover;
   height: 100vh;
   text-align: center;
+  padding: 0.5rem;
   padding-top: 36vh;
   background-repeat: no-repeat;
   background-position: top;
   position: relative;
   filter: grayscale(0.2);
 
-  h1, h3, p {
-    color: $dark-blue;
+  h1 {
+    font-family: $bold-text-font !important;
+    font-size: 4.5rem !important;
+  }
+
+  #curly {
+    color: $pastel-black;
     font-family: $banner-curly-font;
+    line-height: 1;
+  }
+
+  h3 {
+    font-family: $bold-text-font;
+    font-size: 3rem;
   }
 }
 
@@ -19,19 +31,32 @@
 // larger screen
 @media only screen and (min-device-width: 400px) {
   .banner {
-    background-image: url('bg-main.png');
+    background-image: url('abstract-triangle-top.png');
+    // background: linear-gradient(to right,  $pastel-white 0%,$pastel-white 35%,$pastel-mint 35%,$pastel-mint 100%);
     background-size: cover;
     height: 120vh;
     text-align: center;
-    padding-top: 40vh;
+    padding-top: 30vh;
     background-repeat: no-repeat;
     background-position: center center;
     position: relative;
     filter: grayscale(0.2);
 
-    h1, h3, p {
-      color: $dark-blue;
+    h1 {
+      font-family: $bold-text-font !important;
+      font-size: 5.5rem !important;
+
+    }
+
+    #curly {
+      color: $pastel-black;
       font-family: $banner-curly-font;
+      line-height: 1;
+    }
+
+    h3 {
+      font-family: $bold-text-font;
+      font-size: 4rem;
     }
   }
 }

@@ -3,12 +3,18 @@
   height: auto;
   object-fit: cover;
   flex: 1 0 25%;
+  margin-bottom: 1rem;
 }
 
 .small-image {
-  height: 60px;
-  width: auto;
-  object-fit: cover;
+  height: 80px;
+  width: 80px;
+  object-fit: scale-down;
   margin-bottom: 1rem;
-  filter: grayscale(90%);
+  filter: invert(62%) sepia(61%) saturate(283%) hue-rotate(166deg) brightness(85%) contrast(88%);
+}
+
+.border-dot {
+    border: 4px dotted;
+  padding: 0.5rem;
 }

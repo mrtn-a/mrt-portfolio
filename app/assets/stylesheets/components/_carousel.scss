@@ -13,8 +13,8 @@
 
 .carousel-item {
   h4 {
-    color: $pink;
-    font-family: $body-font;
+    color: $pastel-light-blue;
+    font-family: $bold-text-font;
     font-size: 2rem;
   }
 }
@@ -49,6 +49,14 @@
   width: 90%;
 }
 
+.position {
+  display: flex;
+}
+
+.magin-right-flexible {
+  margin-right: 3rem
+}
+
 // small screen
 @media only screen and (max-width: 768px) {
   .carousel-inside {
@@ -79,6 +87,15 @@
   .mobile-content-center {
     margin-top: 0.5rem;
     justify-content: center;
+  }
+
+  .position {
+    display: block;
+  }
+
+  .magin-right-flexible {
+    text-align: center;
+    margin-right: 0rem
   }
 }
 
