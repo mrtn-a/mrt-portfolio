@@ -34,7 +34,14 @@
   font-family: $bold-text-font;
 }
 .btn:hover {
+  animation: color-change 5s infinite;
   color: #FBFBFF;
+}
+
+@keyframes color-change {
+  0% { background-color: $pastel-mint; }
+  25% { background-color: $pastel-green; }
+  100% { background-color: $pastel-mint; }
 }
 
 .btn:focus {

@@ -71,6 +71,16 @@ hr.dots {
   font-size: 0.8rem;
 }
 
+#link-animation:hover {
+  animation: text-change 3s infinite;
+}
+
+
+@keyframes text-change {
+  0% { color: $pastel-mint; }
+  50% { color: $pastel-green; }
+  100% { color: $pastel-mint; }
+}
 // small screen
 @media only screen and (max-width: 768px) {
   h1 {

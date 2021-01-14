@@ -1,11 +1,18 @@
 .image-align {
-  width: 80%;
+  width: 95%;
   height: auto;
   object-fit: cover;
   flex: 1 0 25%;
   margin-bottom: 1rem;
 }
 
+.icon-heart {
+  width: 20px;
+  height: 20px;
+  margin-right: 0.2rem;
+  margin-left: 0.2rem;
+
+}
 .small-image {
   height: 80px;
   width: 80px;
@@ -17,4 +24,48 @@
 .border-dot {
     border: 4px dotted;
   padding: 0.5rem;
+}
+
+#Eye {
+  animation: blink 2.4s infinite;
+}
+
+@keyframes blink {
+  90% {
+    transform: none;
+    animation-timing-function: ease-in;
+  }
+  93% {
+    transform: translateY(24px) scaleY(0);
+  }
+  100% {
+    animation-timing-function: ease-out;
+  }
+}
+
+#circle-slow {
+  transform-origin: center center;
+  transform-box: fill-box;
+  animation: rotate 12s infinite linear ;
+}
+
+#circle-fast {
+  transform-origin: center center;
+  transform-box: fill-box;
+  animation: rotate 4.4s infinite linear ;
+}
+
+#circle {
+  transform-origin: center center;
+  transform-box: fill-box;
+  animation: rotate 6s infinite linear ;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
