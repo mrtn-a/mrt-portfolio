@@ -10,7 +10,7 @@ import AOS from 'aos';
 import { navToggle } from '../components/nav_toggle';
 import { loadDynamicBannerText } from '../components/banner';
 import { initRellax } from '../components/rellax.js';
-import { railsAnimation, jsAnimation } from '../components/paint.js';
+import { heartAnimation } from '../components/paint.js';
 
 
 
@@ -18,11 +18,12 @@ document.addEventListener('turbolinks:load', () => {
 
 
   var waypoint = new Waypoint({
-    element: document.getElementById('projects'),
+    element: document.getElementById('appear-icon'),
     handler: function(direction) {
-      railsAnimation.paint();
-            jsAnimation.paint();
 
+      heartAnimation.paint( {
+                reverse : true
+      });
     }
   })
 
