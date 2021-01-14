@@ -8,11 +8,14 @@
     "@rails/webpacker": "4.3.0",
     "aos": "2.3.4",
     "bootstrap": "^4.5.3",
+    "i": "^0.3.6",
     "jquery": "^3.5.1",
+    "lazy-line-painter": "^1.9.6",
     "popper.js": "^1.16.1",
     "rellax": "^1.12.1",
     "turbolinks": "^5.2.0",
-    "typed.js": "^2.0.11"
+    "typed.js": "^2.0.11",
+    "waypoints": "^4.0.1"
   },
   "version": "0.1.0",
   "devDependencies": {

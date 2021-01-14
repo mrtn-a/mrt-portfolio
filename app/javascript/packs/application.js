@@ -3,23 +3,31 @@ require("turbolinks").start()
 require("@rails/activestorage").start()
 require("channels")
 
-
 // External imports
 import "bootstrap";
 import AOS from 'aos';
 
-
 import { navToggle } from '../components/nav_toggle';
 import { loadDynamicBannerText } from '../components/banner';
 import { initRellax } from '../components/rellax.js';
+import { railsAnimation, jsAnimation } from '../components/paint.js';
+
 
 
 document.addEventListener('turbolinks:load', () => {
 
-  // ANIMATE ON SCROLL INIT
+
+  var waypoint = new Waypoint({
+    element: document.getElementById('projects'),
+    handler: function(direction) {
+      railsAnimation.paint();
+            jsAnimation.paint();
+
+    }
+  })
+
   AOS.init();
 
-  // WELCOME MESSAGE
   console.log('%c%s',
               "color: #FFF; background: #6086A8; font-size: 24px; padding: .5rem; font-family: 'courier'; text-align: center;",
               'Hey there!');
@@ -30,14 +38,13 @@ document.addEventListener('turbolinks:load', () => {
 
   loadDynamicBannerText();
 
-  // NAVBAR ANIMATION
   navToggle();
 
-  //RELLAX INIT
   if (document.querySelector('.rellax')) {
     initRellax();
   };
-
 });
+
+
 
 window.addEventListener('load', AOS.refresh)
