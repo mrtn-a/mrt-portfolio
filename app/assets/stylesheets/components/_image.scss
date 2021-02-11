@@ -11,18 +11,18 @@
   height: 20px;
   margin-right: 0.2rem;
   margin-left: 0.2rem;
-
 }
 .small-image {
-  height: 80px;
-  width: 80px;
+  height: 70px;
+  width: 70px;
   object-fit: scale-down;
   margin-bottom: 1rem;
-  filter: invert(62%) sepia(61%) saturate(283%) hue-rotate(166deg) brightness(85%) contrast(88%);
+  filter: invert(62%) sepia(61%) saturate(283%) hue-rotate(166deg)
+    brightness(85%) contrast(88%);
 }
 
 .border-dot {
-    border: 4px dotted;
+  border: 4px dotted;
   padding: 0.5rem;
 }
 
@@ -46,19 +46,19 @@
 #circle-slow {
   transform-origin: center center;
   transform-box: fill-box;
-  animation: rotate 12s infinite linear ;
+  animation: rotate 12s infinite linear;
 }
 
 #circle-fast {
   transform-origin: center center;
   transform-box: fill-box;
-  animation: rotate 4.4s infinite linear ;
+  animation: rotate 4.4s infinite linear;
 }
 
 #circle {
   transform-origin: center center;
   transform-box: fill-box;
-  animation: rotate 6s infinite linear ;
+  animation: rotate 6s infinite linear;
 }
 
 @keyframes rotate {
